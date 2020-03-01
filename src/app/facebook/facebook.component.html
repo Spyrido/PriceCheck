@@ -16,6 +16,10 @@
 </ActionBar>
 
 <GridLayout class="page__content">
-    <Label class="page__content-icon far" text="&#xf082;"></Label>
-    <Label class="page__content-placeholder" text="<!-- Page content goes here -->"></Label>
+    <Label class="page__content-placeholder" text="Συνδέσου στο Facebook"></Label>
+    <StackLayout class="login-buttons">
+        <FacebookLoginButton (login)="onLogin($event)"></FacebookLoginButton>
+    </StackLayout>
+
+
 </GridLayout>

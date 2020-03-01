@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "369636209382",
+    "firebase_url": "https://pricecheckapp-223c1.firebaseio.com",
+    "project_id": "pricecheckapp-223c1",
+    "storage_bucket": "pricecheckapp-223c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369636209382:android:19b740f011cf5c57b10127",
+        "android_client_info": {
+          "package_name": "org.nativescript.PriceCheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369636209382-ks1trahl1vbei9hcjad404hcethvf525.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCpsMWHO8pbNA1d-qSDhtK86xoIBHvBOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369636209382-ks1trahl1vbei9hcjad404hcethvf525.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

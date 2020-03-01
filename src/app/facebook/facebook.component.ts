@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { RadSideDrawer } from "nativescript-ui-sidedrawer";
+import * as Facebook from "nativescript-facebook";
 import * as app from "tns-core-modules/application";
 
 @Component({
@@ -19,5 +20,13 @@ export class FacebookComponent implements OnInit {
     onDrawerButtonTap(): void {
         const sideDrawer = <RadSideDrawer>app.getRootView();
         sideDrawer.showDrawer();
+    }
+
+    onLogin(eventData: FacebookComponent.LoginEventData){
+        if(eventData.error){
+            alert("Error during login:"+ eventData.error);
+        }else{
+            console.log(eventData.loginResponse.token);
+        }
     }
 }

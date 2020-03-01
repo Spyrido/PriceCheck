@@ -16,6 +16,13 @@
 </ActionBar>
 
 <GridLayout class="page__content">
-    <Label class="page__content-icon fas" text="&#xf02a;"></Label>
-    <Label class="page__content-placeholder" text="<!-- Page content goes here -->"></Label>
+    <MLKitBarcodeScanner
+    width="260"
+    height="380"
+    beepOnScan="true"
+    formats="QR_CODE, EAN_8, EAN_13"
+    preferFrontCamera="false"
+    supportInverseBarcodes="false"
+    (scanResult)="onBarcodeScanResult($event)">
+</MLKitBarcodeScanner>
 </GridLayout>
